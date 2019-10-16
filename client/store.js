@@ -1,4 +1,5 @@
 import { createStore, compose } from 'redux';
+// syncs react-router with the Store 
 import { syncHistoryWithStore } from 'react-router-redux';
 import { browserHistory } from 'react-router';
 
