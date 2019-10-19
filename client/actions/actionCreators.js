@@ -4,7 +4,7 @@ export function increment(index) {
   return {
     type: 'INCREMENT_LIKES',
     index
-  }
+  };
 }
 // add comment
 export function addComment(postID, author, comment) {
@@ -13,7 +13,7 @@ export function addComment(postID, author, comment) {
     postID,
     author,
     comment
-  }
+  };
 }
 // remove comment
 export function removeComment(postID, i) {
@@ -21,5 +21,5 @@ export function removeComment(postID, i) {
     type: 'REMOVE_COMMENT',
     i,
     postId
-  }
+  };
 }
